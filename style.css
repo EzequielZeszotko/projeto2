@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: black;
+
+}
+.container{
+	max-width: 1200px;
+	margin: auto;
+}
+
+section{
+	padding: 20px;
+	background-image: url("./imagens/tes.jpeg");
+	background-size: cover;
+	overflow: hidden;
+}
+
+header{
+	background-color: #48c5ce;
+	text-align: center;
+	color: whitesmoke;
+	padding: 10px;
+}
+.title{
+}
+
+.formcontainer{
+	max-width: 230px;
+	background-color: #FFFFFFBB;
+	padding: 20px;
+	float: left; 
+	
+}
+h2{font-size: 16px;}
+
+.mb{
+	margin-bottom: 14px;
+}
+
+input, select{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	border: none;
+	margin-bottom: 10px;
+}
+
+input[type="submit"]{
+color: whitesmoke;
+background: #48c5ce;
+font-weight: bold;
+
+}
+footer{
+	background-color: #202121;
+	padding: 40px;
+	text-align: center;
+}
+
+.picture{
+	width: 290px;
+}
+
+.description{
+	display: inline-block;
+	color: whitesmoke;
+	max-width: 40%;
+	margin-left: 40px;
+	text-align: left;
+}
+
+.description p, .description h3{
+	margin-bottom: 20px;
+}
+
+
+
+
+
